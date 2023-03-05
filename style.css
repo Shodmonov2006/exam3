@@ -1,0 +1,1169 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container1 {
+  background-image: url(./box.png);
+  width: 100%;
+  height: 120vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 800px) {
+  .container1 {
+    background-position-x: center;
+  }
+}
+@media (max-width: 480px) {
+  .container1 {
+    width: 100%;
+    height: 100vh;
+    background-position-x: left;
+  }
+}
+@media (max-width: 500px) {
+  .container1 {
+    height: 1vh;
+  }
+}
+@media (max-width: 690px) {
+  .container1 {
+    height: 150vh;
+  }
+}
+@media (max-width: 776px) {
+  .container1 {
+    height: 140vh;
+  }
+}
+@media (max-width: 788px) {
+  .container1 {
+    height: 140vh;
+  }
+}
+@media (max-width: 544px) {
+  .container1 {
+    height: 150vh;
+  }
+}
+.container1 .margin-auto {
+  width: 90%;
+  height: 10vh;
+  margin: auto;
+}
+.container1 .margin-auto .nav {
+  padding-top: 20px;
+  height: 6vh;
+  display: flex;
+}
+.container1 .margin-auto .dsfl {
+  display: flex;
+}
+.container1 .margin-auto .dsfl div {
+  width: 100%;
+  height: 7vh;
+  background-color: blue;
+  border-radius: 5px;
+}
+.container1 .margin-auto .dsfl h1 {
+  margin-left: 15px;
+}
+.container1 .margin-auto nav {
+  width: 70%;
+  display: flex;
+  margin-left: auto;
+}
+.container1 .margin-auto nav ul {
+  display: flex;
+  padding-top: 5px;
+  width: 100%;
+  justify-content: space-between;
+}
+@media (max-width: 800px) {
+  .container1 .margin-auto nav ul {
+    display: none;
+  }
+}
+.container1 .margin-auto nav ul li {
+  list-style-type: none;
+}
+.container1 .margin-auto nav .button2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 450px) {
+  .container1 .margin-auto nav .button2 {
+    display: none;
+  }
+}
+.container1 .margin-auto nav .button2 .button {
+  margin-left: 20px;
+  border: 1px solid blue;
+  background-color: blue;
+  width: 30%;
+  color: white;
+  font-size: 14px;
+  height: 5.4vh;
+  border: 0;
+  text-align: center;
+  border-radius: 50px;
+}
+.container1 .margin-auto nav .button2 .button1 {
+  margin-left: 20px;
+  border: 1px solid blue;
+  width: 60%;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  height: 5.4vh;
+  border: 0;
+  text-align: center;
+  background-color: rgb(0, 0, 255);
+  border-radius: 50px;
+}
+.container1 .margin-auto nav .button2 select {
+  margin-left: 20px;
+  border: 0;
+  height: 6vh;
+  background-color: rgba(240, 248, 255, 0);
+}
+.container1 .container2 {
+  width: 50%;
+  margin-top: 200px;
+}
+@media (max-width: 480px) {
+  .container1 .container2 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+  }
+}
+.container1 .container2 h1 {
+  font-family: "IBM Plex Serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 46px;
+  width: 80%;
+  color: rgba(6, 18, 36, 0.9);
+}
+.container1 .container2 h4 {
+  padding-top: 10px;
+  letter-spacing: 8px;
+}
+.container1 .container2 h5 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(6, 18, 36, 0.9);
+}
+.container1 .container2 p {
+  width: 80%;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  /* or 21px */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: rgba(6, 18, 36, 0.9);
+}
+@media (max-width: 480px) {
+  .container1 .container2 p {
+    width: 70%;
+    padding-left: 45px;
+  }
+}
+.container1 .container2 .button3 {
+  margin-top: 10px;
+  color: white;
+  width: 40%;
+  height: 6vh;
+  background-color: blue;
+  border: 0;
+  border-radius: 50px;
+}
+@media (max-width: 834px) {
+  .container1 .container2 .button3 {
+    width: 60%;
+  }
+}
+@media (max-width: 800px) {
+  .container1 .container2 .button3 {
+    width: 60%;
+  }
+}
+@media (max-width: 830px) {
+  .container1 .container2 .button3 {
+    width: 60%;
+  }
+}
+@media (max-width: 630px) {
+  .container1 .container2 .button3 {
+    width: 60%;
+  }
+}
+@media (max-width: 568px) {
+  .container1 .container2 .button3 {
+    width: 65%;
+  }
+}
+@media (max-width: 494px) {
+  .container1 .container2 .button3 {
+    width: 73%;
+  }
+}
+@media (max-width: 508px) {
+  .container1 .container2 .button3 {
+    width: 73%;
+  }
+}
+
+.container3 {
+  width: 90%;
+  height: 20vh;
+  margin: auto;
+}
+@media (max-width: 575px) {
+  .container3 {
+    height: 70vh;
+  }
+}
+.container3 .color-white {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 575px) {
+  .container3 .color-white {
+    flex-direction: column;
+  }
+}
+.container3 .color-white .kartochka1 {
+  width: 20%;
+  height: 8vh;
+  display: flex;
+}
+@media (max-width: 800px) {
+  .container3 .color-white .kartochka1 {
+    width: 100%;
+  }
+}
+@media (max-width: 575px) {
+  .container3 .color-white .kartochka1 {
+    padding-top: 30px;
+    padding-left: 10px;
+    width: 100%;
+    height: 10vh;
+  }
+  .container3 .color-white .kartochka1 img {
+    width: 10%;
+    height: 8vh;
+  }
+  .container3 .color-white .kartochka1 div {
+    padding-left: 10px;
+  }
+  .container3 .color-white .kartochka1 div p {
+    padding-top: 10px;
+    width: 100%;
+    font-size: 16px;
+  }
+}
+
+.container4 {
+  width: 100%;
+  height: 150vh;
+  background-image: url(./box\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 1200px) {
+  .container4 {
+    height: 200vh;
+  }
+}
+@media (max-width: 1024px) {
+  .container4 {
+    height: 220vh;
+  }
+}
+@media (max-width: 480px) {
+  .container4 {
+    height: 320vh;
+  }
+}
+@media (max-width: 830px) {
+  .container4 {
+    height: 220vh;
+  }
+}
+@media (max-width: 795px) {
+  .container4 {
+    height: 300vh;
+  }
+}
+@media (max-width: 550px) {
+  .container4 {
+    height: 320vh;
+  }
+}
+.container4 .containerк4 {
+  padding-top: 50px;
+  width: 90%;
+  margin: auto;
+}
+.container4 .containerк4 h1 {
+  font-family: "IBM Plex Serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  color: rgba(6, 18, 36, 0.9);
+  font-size: 40px;
+}
+.container4 .containerк4 .displayflex {
+  display: flex;
+}
+@media (max-width: 800px) {
+  .container4 .containerк4 .displayflex {
+    flex-direction: column;
+  }
+}
+.container4 .containerк4 .displayflex .textp {
+  margin-top: 20px;
+}
+.container4 .containerк4 .displayflex .textp p {
+  padding-top: 15px;
+  width: 80%;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  color: rgba(6, 18, 36, 0.9);
+}
+.container4 .containerк4 .displayflex .textp button {
+  margin-top: 50px;
+  width: 30%;
+  height: 8vh;
+  border-radius: 50px;
+  border: 0;
+  border: 1px solid blue;
+  background-color: rgba(255, 255, 255, 0);
+}
+@media (max-width: 480px) {
+  .container4 .containerк4 .displayflex .textp button {
+    width: 50%;
+  }
+}
+.container4 .containerк4 .displayflex .img1 {
+  margin-top: 50px;
+  text-align: center;
+}
+.container4 .containerк4 .displayflex .img1 img {
+  width: 550px;
+}
+@media (max-width: 800px) {
+  .container4 .containerк4 .displayflex .img1 img {
+    width: 350px;
+  }
+}
+@media (max-width: 480px) {
+  .container4 .containerк4 .displayflex .img1 img {
+    width: 300px;
+  }
+}
+@media (max-width: 1020px) {
+  .container4 .containerк4 .displayflex .img1 img {
+    width: 350px;
+  }
+}
+.container4 .containerк4 .displayflex2 {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 800px) {
+  .container4 .containerк4 .displayflex2 {
+    flex-direction: column-reverse;
+  }
+}
+.container4 .containerк4 .displayflex2 .img1 {
+  margin-top: 50px;
+  text-align: center;
+}
+.container4 .containerк4 .displayflex2 .img1 img {
+  width: 450px;
+}
+@media (max-width: 800px) {
+  .container4 .containerк4 .displayflex2 .img1 img {
+    width: 350px;
+  }
+}
+@media (max-width: 480px) {
+  .container4 .containerк4 .displayflex2 .img1 img {
+    width: 250px;
+  }
+}
+@media (max-width: 1020px) {
+  .container4 .containerк4 .displayflex2 .img1 img {
+    width: 350px;
+  }
+}
+.container4 .containerк4 .displayflex2 .text {
+  width: 55%;
+}
+@media (max-width: 480px) {
+  .container4 .containerк4 .displayflex2 .text {
+    width: 80%;
+  }
+}
+.container4 .containerк4 .displayflex2 .text .textp2 {
+  margin-top: 30px;
+  width: 100%;
+}
+.container4 .containerк4 .displayflex2 .text .textp2 p {
+  padding-top: 15px;
+  width: 80%;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  color: rgba(6, 18, 36, 0.9);
+}
+.container4 .containerк4 .displayflex2 .text .textp2 h1 {
+  font-family: "IBM Plex Serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  color: rgba(6, 18, 36, 0.9);
+}
+.container4 .containerк4 .displayflex2 .text .textp2 p {
+  padding-top: 15px;
+  width: 100%;
+  line-height: 25px;
+  font-size: 20px;
+}
+@media (max-width: 480px) {
+  .container4 .containerк4 .displayflex2 .text .textp2 p {
+    width: 100%;
+  }
+}
+.container4 .containerк4 .displayflex2 .text .textp2 button {
+  margin-top: 20px;
+  width: 40%;
+  height: 8vh;
+  border-radius: 50px;
+  border: 0;
+  background-color: blue;
+  color: white;
+}
+@media (max-width: 640px) {
+  .container4 .containerк4 .displayflex2 .text .textp2 button {
+    width: 50%;
+  }
+}
+
+.container5 {
+  width: 100%;
+  height: 55vh;
+}
+@media (max-width: 850px) {
+  .container5 {
+    height: 120vh;
+  }
+}
+@media (max-width: 640px) {
+  .container5 {
+    height: 250vh;
+  }
+}
+.container5 .width80 {
+  width: 90%;
+  margin: auto;
+}
+.container5 .width80 h1 {
+  margin-top: 20px;
+  text-align: center;
+}
+.container5 .width80 .div {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 800px) {
+  .container5 .width80 .div {
+    flex-direction: column;
+  }
+}
+.container5 .width80 .div .twokar {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (max-width: 800px) {
+  .container5 .width80 .div .twokar {
+    margin-top: 5%;
+  }
+}
+@media (max-width: 640px) {
+  .container5 .width80 .div .twokar {
+    margin-left: 150px;
+    flex-direction: column;
+  }
+}
+.container5 .width80 .div .twokar .kartochkaa {
+  width: 30%;
+  height: 35vh;
+  background-color: #DEEEFC;
+}
+@media (max-width: 800px) {
+  .container5 .width80 .div .twokar .kartochkaa {
+    height: 40vh;
+  }
+}
+@media (max-width: 640px) {
+  .container5 .width80 .div .twokar .kartochkaa {
+    width: 50%;
+    height: 40vh;
+    margin-top: 30px;
+  }
+}
+.container5 .width80 .div .twokar .kartochkaa .divv {
+  width: 90%;
+  margin: auto;
+}
+.container5 .width80 .div .twokar .kartochkaa .divv h3 {
+  padding-top: 30px;
+}
+.container5 .width80 .div .twokar .kartochkaa .divv p {
+  padding-top: 20px;
+}
+.container5 .width80 .div .twokar .kartochkaa .divv .dsf {
+  padding-top: px;
+  display: flex;
+}
+.container5 .width80 .div .twokar .kartochkaa .divv .dsf p {
+  padding-left: 5px;
+  padding-top: 15px;
+}
+.container5 .width80 .div .twokar .kartochkaa .divv .buttton1 {
+  margin-top: 20px;
+  width: 100%;
+  height: 5vh;
+  border-radius: 50px;
+  border: 0;
+  background-color: blue;
+  color: white;
+}
+@media (max-width: 800px) {
+  .container5 .width80 .div .twokar .kartochkaa .divv .buttton1 {
+    margin-top: -12px;
+  }
+}
+.container5 .width80 .div .twokar .kartochkaa .divv .buttton11 {
+  margin-top: 58px;
+  width: 100%;
+  height: 5vh;
+  border-radius: 50px;
+  border: 0;
+  background-color: blue;
+  color: white;
+}
+.container5 .width80 .div .twokar2 {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (max-width: 800px) {
+  .container5 .width80 .div .twokar2 {
+    margin-top: 50px;
+    margin-top: 5%;
+  }
+}
+@media (max-width: 640px) {
+  .container5 .width80 .div .twokar2 {
+    flex-direction: column;
+    margin-left: 150px;
+  }
+}
+.container5 .width80 .div .twokar2 .kartochkaa {
+  width: 30%;
+  height: 35vh;
+  background-color: #DEEEFC;
+}
+@media (max-width: 800px) {
+  .container5 .width80 .div .twokar2 .kartochkaa {
+    height: 40vh;
+  }
+}
+@media (max-width: 640px) {
+  .container5 .width80 .div .twokar2 .kartochkaa {
+    width: 50%;
+    margin-top: 30px;
+    height: 50vh;
+  }
+}
+.container5 .width80 .div .twokar2 .kartochkaa .divv {
+  width: 90%;
+  margin: auto;
+}
+.container5 .width80 .div .twokar2 .kartochkaa .divv h3 {
+  padding-top: 30px;
+}
+.container5 .width80 .div .twokar2 .kartochkaa .divv p {
+  padding-top: 20px;
+}
+.container5 .width80 .div .twokar2 .kartochkaa .divv .dsf {
+  padding-top: px;
+  display: flex;
+}
+.container5 .width80 .div .twokar2 .kartochkaa .divv .dsf p {
+  padding-left: 5px;
+  padding-top: 15px;
+}
+.container5 .width80 .div .twokar2 .kartochkaa .divv .buttton1 {
+  margin-top: 20px;
+  width: 100%;
+  height: 5vh;
+  border-radius: 50px;
+  border: 0;
+  background-color: blue;
+  color: white;
+}
+@media (max-width: 800px) {
+  .container5 .width80 .div .twokar2 .kartochkaa .divv .buttton1 {
+    margin-top: -12px;
+  }
+}
+@media (max-width: 640px) {
+  .container5 .width80 .div .twokar2 .kartochkaa .divv .buttton1 {
+    margin-top: 45px;
+  }
+}
+.container5 .width80 .div .twokar2 .kartochkaa .divv .buttton11 {
+  margin-top: 58px;
+  width: 100%;
+  height: 5vh;
+  border-radius: 50px;
+  border: 0;
+  background-color: blue;
+  color: white;
+}
+@media (max-width: 800px) {
+  .container5 .width80 .div .twokar2 .kartochkaa .divv .buttton11 {
+    margin-top: -10px;
+    margin-top: 35px;
+  }
+}
+@media (max-width: 640px) {
+  .container5 .width80 .div .twokar2 .kartochkaa .divv .buttton11 {
+    margin-top: 80px;
+  }
+}
+
+.container6 {
+  width: 100%;
+  height: 35vh;
+  background-color: #D8F1F0;
+}
+@media (max-width: 800px) {
+  .container6 {
+    height: 50vh;
+  }
+}
+@media (max-width: 536px) {
+  .container6 {
+    height: 70vh;
+  }
+}
+.container6 .texth1h2p {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  color: black;
+}
+.container6 .texth1h2p h1 {
+  padding-top: 20px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 73px;
+  line-height: 48px;
+  color: rgba(6, 18, 36, 0.9);
+}
+@media (max-width: 800px) {
+  .container6 .texth1h2p h1 {
+    font-size: 35px;
+  }
+}
+.container6 .texth1h2p h3 {
+  font-size: 30px;
+  text-align: center;
+  font-family: "IBM Plex Serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: rgba(6, 18, 36, 0.9);
+}
+@media (max-width: 800px) {
+  .container6 .texth1h2p h3 {
+    font-size: 20px;
+  }
+}
+.container6 .texth1h2p p {
+  width: 60%;
+  padding-left: 135px;
+  text-align: center;
+  padding-top: 20px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  text-align: center;
+  color: rgba(6, 18, 36, 0.9);
+}
+@media (max-width: 800px) {
+  .container6 .texth1h2p p {
+    padding-left: 70px;
+    font-size: 10px;
+    padding-top: -20px;
+  }
+}
+
+.container7 {
+  width: 100%;
+  height: 40vh;
+}
+.container7 h1 {
+  text-align: center;
+  padding-top: 20px;
+  text-align: center;
+  font-family: "IBM Plex Serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: rgba(6, 18, 36, 0.9);
+}
+.container7 .contaienrr {
+  width: 90%;
+  padding-top: 40px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (max-width: 780px) {
+  .container7 .contaienrr {
+    height: 15vh;
+  }
+}
+@media (max-width: 640px) {
+  .container7 .contaienrr {
+    height: 7vh;
+  }
+}
+
+.container8 {
+  width: 100%;
+  height: 100vh;
+  background-color: #D8F1F0;
+}
+@media (max-width: 800px) {
+  .container8 {
+    height: 140vh;
+  }
+}
+@media (max-width: 640px) {
+  .container8 {
+    height: 250vh;
+  }
+}
+.container8 h1 {
+  padding-top: 20px;
+  text-align: center;
+  font-family: "IBM Plex Serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: rgba(6, 18, 36, 0.9);
+}
+.container8 .contaienrr8 {
+  width: 100%;
+  margin: auto;
+}
+@media (max-width: 800px) {
+  .container8 .contaienrr8 {
+    width: 80%;
+  }
+}
+.container8 .contaienrr8 .photo {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 90px;
+}
+@media (max-width: 800px) {
+  .container8 .contaienrr8 .photo {
+    padding-left: 1px;
+  }
+}
+@media (max-width: 640px) {
+  .container8 .contaienrr8 .photo {
+    margin-left: 30px;
+    flex-direction: column;
+  }
+}
+.container8 .contaienrr8 .photo .photo1 {
+  width: 20%;
+  margin-top: 50px;
+  width: 28%;
+}
+@media (max-width: 640px) {
+  .container8 .contaienrr8 .photo .photo1 {
+    width: 80px;
+  }
+}
+.container8 .contaienrr8 .photo .photo1 img {
+  opacity: 65%;
+}
+@media (max-width: 800px) {
+  .container8 .contaienrr8 .photo .photo1 img {
+    width: 250px;
+  }
+}
+@media (max-width: 640px) {
+  .container8 .contaienrr8 .photo .photo1 img {
+    width: 350px;
+  }
+}
+.container8 .contaienrr8 .photo .photo1 p {
+  margin-top: 10px;
+}
+.container8 .contaienrr8 .photo .photo1 h4 {
+  width: 65%;
+  padding-top: 10px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+  color: rgba(6, 18, 36, 0.9);
+}
+@media (max-width: 800px) {
+  .container8 .contaienrr8 .photo .photo1 h4 {
+    width: 250px;
+  }
+}
+@media (max-width: 640px) {
+  .container8 .contaienrr8 .photo .photo1 h4 {
+    width: 250px;
+  }
+}
+.container8 .contaienrr8 .photo .photo2 {
+  margin-top: 50px;
+  width: 28%;
+}
+@media (max-width: 800px) {
+  .container8 .contaienrr8 .photo .photo2 {
+    display: none;
+  }
+}
+.container8 .contaienrr8 .photo .photo2 img {
+  opacity: 65%;
+}
+.container8 .contaienrr8 .photo .photo2 p {
+  margin-top: 10px;
+}
+.container8 .contaienrr8 .photo .photo2 h4 {
+  width: 65%;
+  padding-top: 10px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+  color: rgba(6, 18, 36, 0.9);
+}
+
+.container9 {
+  width: 100%;
+  height: 60vh;
+  background-color: white;
+}
+@media (max-width: 800px) {
+  .container9 {
+    height: 100vh;
+  }
+}
+.container9 h1 {
+  padding-top: 20px;
+  text-align: center;
+  font-family: "IBM Plex Serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: rgba(6, 18, 36, 0.9);
+}
+.container9 .contaienrr9 {
+  padding-top: 30px;
+  text-align: center;
+}
+.container9 .contaienrr9 img {
+  margin-right: 50px;
+}
+@media (max-width: 640px) {
+  .container9 .contaienrr9 img {
+    margin-left: 60px;
+  }
+}
+
+.container10 {
+  width: 100%;
+  height: 65vh;
+  background-color: #DEEEFC;
+}
+@media (max-width: 800px) {
+  .container10 {
+    height: 105vh;
+  }
+}
+@media (max-width: 640px) {
+  .container10 {
+    height: 150vh;
+  }
+}
+.container10 h1 {
+  padding-top: 20px;
+  text-align: center;
+  font-family: "IBM Plex Serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: rgba(6, 18, 36, 0.9);
+}
+@media (max-width: 640px) {
+  .container10 h1 {
+    font-size: 30px;
+  }
+}
+.container10 .contaienrr10 {
+  padding-top: 10px;
+  width: 35%;
+  margin: auto;
+}
+.container10 .contaienrr10 .imgdf {
+  display: flex;
+}
+.container10 .contaienrr10 .imgdf .plas {
+  color: blue;
+}
+.container10 .contaienrr10 .imgdf p {
+  margin-left: 5px;
+  margin-top: 20px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+  color: rgba(6, 18, 36, 0.9);
+}
+
+.container11 {
+  width: 100%;
+  height: 30vh;
+}
+@media (max-width: 800px) {
+  .container11 {
+    height: 50vh;
+  }
+}
+.container11 h1 {
+  padding-top: 20px;
+  text-align: center;
+  font-family: "IBM Plex Serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  color: rgba(6, 18, 36, 0.9);
+}
+.container11 .contaienrr10 {
+  padding-top: 20px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  /* or 183% */
+  text-align: center;
+  color: rgba(6, 18, 36, 0.9);
+}
+.container11 .contaienrr10 input {
+  margin-top: 30px;
+  border-radius: 50px;
+  width: 30%;
+  height: 5vh;
+  border: 1px solid blue;
+}
+.container11 .contaienrr10 button {
+  width: 15%;
+  height: 5vh;
+  background-color: blue;
+  border: 0;
+  color: white;
+  border-radius: 50px;
+}
+
+.container12 {
+  width: 100%;
+  height: 45vh;
+  background-color: #061224;
+}
+@media (max-width: 800px) {
+  .container12 {
+    height: 60vh;
+  }
+}
+.container12 .contaienrr12 {
+  width: 90%;
+  padding-top: 50px;
+  margin-left: 60px;
+  display: flex;
+}
+.container12 .contaienrr12 .dsfl2 {
+  display: flex;
+}
+.container12 .contaienrr12 .dsfl2 div {
+  height: 5vh;
+  background-color: blue;
+  border-radius: 5px;
+}
+@media (max-width: 800px) {
+  .container12 .contaienrr12 .dsfl2 div {
+    height: 6.5vh;
+  }
+}
+.container12 .contaienrr12 .dsfl2 h1 {
+  margin-left: 10px;
+  color: white;
+}
+.container12 .contaienrr12 nav {
+  padding-left: 100px;
+  width: 40%;
+  display: flex;
+}
+@media (max-width: 800px) {
+  .container12 .contaienrr12 nav {
+    padding-left: 20px;
+    width: 30%;
+  }
+}
+.container12 .contaienrr12 nav ul {
+  width: 100%;
+}
+.container12 .contaienrr12 nav ul li {
+  width: 100%;
+  padding-top: 5px;
+  color: white;
+  list-style-type: none;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+@media (max-width: 800px) {
+  .container12 .contaienrr12 nav ul li {
+    font-size: 12px;
+  }
+}
+.container12 .contaienrr12 nav ul .li {
+  padding-top: 20px;
+}
+.container12 .contaienrr12 nav ul .li .lii {
+  margin-top: 25px;
+  color: #FFFFFF;
+  opacity: 0.4;
+}
+.container12 .contaienrr12 nav ul .lii {
+  margin-top: 105px;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+.container12 .contaienrr12 .nav {
+  display: flex;
+  width: 40%;
+}
+@media (max-width: 800px) {
+  .container12 .contaienrr12 .nav {
+    padding-left: 20px;
+  }
+}
+.container12 .contaienrr12 .nav ul {
+  width: 100%;
+}
+.container12 .contaienrr12 .nav ul li {
+  list-style-type: none;
+  color: white;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+@media (max-width: 800px) {
+  .container12 .contaienrr12 .nav ul li {
+    font-size: 12px;
+  }
+}
+
+.container13 {
+  width: 100%;
+  height: 100vh;
+}
+@media (max-width: 800px) {
+  .container13 {
+    height: 50vh;
+  }
+}
+.container13 h1 {
+  font-family: "IBM Plex Serif";
+  font-style: normal;
+  padding-top: 40px;
+  text-align: center;
+  font-size: 40px;
+  color: rgba(6, 18, 36, 0.9);
+  font-weight: 500;
+}
+.container13 p {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  font-family: "IBM Plex Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  color: rgba(6, 18, 36, 0.9);
+}/*# sourceMappingURL=style.css.map */
